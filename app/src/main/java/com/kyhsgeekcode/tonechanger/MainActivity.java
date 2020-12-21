@@ -1,4 +1,4 @@
-package com.kyhsgeekcode.fixzip;
+package com.kyhsgeekcode.tonechanger;
 
 import android.app.*;
 import android.os.*;
@@ -92,7 +92,7 @@ public class MainActivity extends Activity implements View.OnClickListener,ICons
 				@Override
 				public void run()
 				{
-					FixZip.Run(MainActivity.this);
+					ToneChanger.Run(MainActivity.this);
 					print("Program finished");
 					//isInputMode=true;
 					return ;
